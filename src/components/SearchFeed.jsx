@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 import { Videos} from './';
 import { fetchFromAPI } from '../utils/fetchFromAPI';
 
-const searchFeed = () => {
+const SearchFeed = () => {
   const [videos, setVideos] = useState([]);
   const { searchTerm } = useParams();
 
@@ -26,6 +26,6 @@ const searchFeed = () => {
   )
 }
 
-export default searchFeed
+export default SearchFeed
 
 

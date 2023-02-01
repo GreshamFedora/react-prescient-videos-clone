@@ -4,8 +4,7 @@ import { Box, Stack, Typography } from '@mui/material';
 import { Sidebar, Videos} from './';
 import { fetchFromAPI } from '../utils/fetchFromAPI';
 
-// This is the Chinese feed
-const Feed = () => {
+const EnFeed = () => {
 
   const [selectedCategory, setSelectedCategory] = useState('中文兒歌');
   const [videos, setVideos] = useState([]);
@@ -42,6 +41,6 @@ const Feed = () => {
   )
 }
 
-export default Feed
+export default EnFeed
 
 
