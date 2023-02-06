@@ -6,3 +6,4 @@ const ZhSidebar = ({ selectedCategory, setSelectedCategory }) => (
     <Stack
         direction="row"
         sx={{
+            overflowY: 
