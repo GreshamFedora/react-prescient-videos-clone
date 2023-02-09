@@ -7,4 +7,5 @@ const ZhSidebar = ({ selectedCategory, setSelectedCategory }) => (
         direction="row"
         sx={{
             overflowY: 'auto',
-            height: 
+            height: { sx: 'auto', md: '95%' },
+            
