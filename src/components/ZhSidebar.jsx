@@ -11,3 +11,5 @@ const ZhSidebar = ({ selectedCategory, setSelectedCategory }) => (
             flexDirection: { md: 'column' },
         }}
     >
+        {categories.map((category) => (
+            
