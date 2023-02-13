@@ -12,4 +12,5 @@ const ZhSidebar = ({ selectedCategory, setSelectedCategory }) => (
         }}
     >
         {categories.map((category) => (
+            <button
             
