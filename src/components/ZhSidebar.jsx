@@ -16,4 +16,4 @@ const ZhSidebar = ({ selectedCategory, setSelectedCategory }) => (
                 onClick={() => setSelectedCategory(category.name)}
                 className="category-btn"
                 style={{
-                
+                background: category.name 
