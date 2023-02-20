@@ -17,4 +17,4 @@ const ZhSidebar = ({ selectedCategory, setSelectedCategory }) => (
                 className="category-btn"
                 style={{
                 background: category.name === selectedCategory && '#FC1503', color: 'white'
-            
+            }}
