@@ -19,4 +19,5 @@ const ZhSidebar = ({ selectedCategory, setSelectedCategory }) => (
                 background: category.name === selectedCategory && '#FC1503', color: 'white'
             }}
             key={category.name}
+            >
             
