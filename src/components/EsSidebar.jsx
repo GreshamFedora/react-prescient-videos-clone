@@ -1,6 +1,6 @@
 import { Stack } from "@mui/material";
 
-import { categories } from "../utils/constants";
+import { esCategories } from "../utils/constants";
 
 const EsSidebar = ({ selectedCategory, setSelectedCategory }) => (
     <Stack
@@ -11,7 +11,7 @@ const EsSidebar = ({ selectedCategory, setSelectedCategory }) => (
             flexDirection: { md: 'column' },
         }}
     >
-        {categories.map((category) => (
+        {esCategories.map((category) => (
             <button
                 onClick={() => setSelectedCategory(category.name)}
                 className="category-btn"

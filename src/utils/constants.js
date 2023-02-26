@@ -71,7 +71,7 @@ export const esCategories = [
   { name: '凹凸世界', icon: <DeveloperModeIcon />, },
 ];
 export const enCategories = [
-  { name: '中文兒歌', icon: <MusicNoteIcon />, },
+  { name: 'English Songs', icon: <MusicNoteIcon />, },
   { name: '超級飛俠', icon: <FlightIcon />, },
   { name: '小豬佩奇', icon: <SavingsIcon /> },
   { name: '頑皮豹', icon: <PetsIcon />, },

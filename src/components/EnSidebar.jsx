@@ -2,7 +2,7 @@ import { Stack } from "@mui/material";
 
 import { categories } from "../utils/constants";
 
-const ZhSidebar = ({ selectedCategory, setSelectedCategory }) => (
+const EnSidebar = ({ selectedCategory, setSelectedCategory }) => (
     <Stack
         direction="row"
         sx={{
@@ -27,4 +27,4 @@ const ZhSidebar = ({ selectedCategory, setSelectedCategory }) => (
     </Stack>
 )
 
-export default ZhSidebar
+export default EnSidebar
