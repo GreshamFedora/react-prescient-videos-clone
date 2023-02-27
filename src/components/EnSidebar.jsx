@@ -1,6 +1,6 @@
 import { Stack } from "@mui/material";
 
-import { categories } from "../utils/constants";
+import { enCategories } from "../utils/constants";
 
 const EnSidebar = ({ selectedCategory, setSelectedCategory }) => (
     <Stack
@@ -11,7 +11,7 @@ const EnSidebar = ({ selectedCategory, setSelectedCategory }) => (
             flexDirection: { md: 'column' },
         }}
     >
-        {categories.map((category) => (
+        {enCategories.map((category) => (
             <button
                 onClick={() => setSelectedCategory(category.name)}
                 className="category-btn"
