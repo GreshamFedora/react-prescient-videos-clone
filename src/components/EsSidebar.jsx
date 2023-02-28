@@ -13,10 +13,10 @@ const EsSidebar = ({ selectedCategory, setSelectedCategory }) => (
     >
         {esCategories.map((category) => (
             <button
-                onClick={() => setSelectedCategory(category.name)}
+                onClick={() => setSelectedCategory(category.searchTerms)}
                 className="category-btn"
                 style={{
-                background: category.name === selectedCategory && '#FC1503', color: 'white'
+                background: category.searchTerms === selectedCategory && '#FC1503', color: 'white'
             }}
             key={category.name}
             >
