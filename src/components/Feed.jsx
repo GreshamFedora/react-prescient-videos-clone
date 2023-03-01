@@ -7,7 +7,7 @@ import { fetchFromAPI } from '../utils/fetchFromAPI';
 // This is the Chinese feed
 const Feed = () => {
 
-  const [selectedCategory, setSelectedCategory] = useState('中文兒歌');
+  const [selectedCategory, setSelectedCategory] = useState('碰碰狐 恐龍');
   const [videos, setVideos] = useState([]);
 
   useEffect(() => {
