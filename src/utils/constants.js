@@ -75,6 +75,7 @@ export const esCategories = [
   { searchTerms:'ExpCaseros Kids', name: 'ExpCaseros Kids', icon: <LiveTvIcon />, },
 ];
 export const enCategories = [
+  { searchTerms: 'rock a bye lullaby for babies', name: 'Rock a bye baby lullaby', icon: <MusicNoteIcon /> },
   { searchTerms: 'Lullabies', name: 'Lullabies', icon: <MusicNoteIcon /> },
   { searchTerms: 'Walking in the Jungle', name: 'Walking in the Jungle', icon: <MusicNoteIcon /> },
   { searchTerms: 'Nursery Rhymes', name: 'Nursery Rhymes', icon: <MusicNoteIcon />, },

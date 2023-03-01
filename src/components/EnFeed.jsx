@@ -6,7 +6,7 @@ import { fetchFromAPI } from '../utils/fetchFromAPI';
 
 const EnFeed = () => {
 
-  const [selectedCategory, setSelectedCategory] = useState('Lullabies');
+  const [selectedCategory, setSelectedCategory] = useState('rock a bye lullaby for babies');
   const [videos, setVideos] = useState([]);
 
   useEffect(() => {
