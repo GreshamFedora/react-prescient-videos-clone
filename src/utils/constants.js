@@ -18,10 +18,10 @@ import ChildCareIcon from '@mui/icons-material/ChildCare';
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
+  { searchTerms: '碰碰狐 恐龍', name: '碰碰狐 恐龍', icon: <MusicNoteIcon /> },
   { searchTerms: '中文兒歌', name: '中文兒歌', icon: <MusicNoteIcon />, },
   { searchTerms: 'Cocomelon中文', name: 'Cocomelon中文', icon: <ChildCareIcon />, },
   { searchTerms: '超級飛俠', name: '超級飛俠', icon: <ChildCareIcon />, },
-  { searchTerms: '碰碰狐 恐龍', name: '碰碰狐 恐龍', icon: <MusicNoteIcon /> },
   { searchTerms: '鯊魚大家族', name: '鯊魚大家族', icon: <MusicNoteIcon /> },
   { searchTerms: '碰碰狐', name: '碰碰狐', icon: <MusicNoteIcon /> },
   { searchTerms: '寶寶巴士', name: '寶寶巴士', icon: <MusicNoteIcon /> },
