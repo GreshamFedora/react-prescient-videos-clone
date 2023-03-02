@@ -20,10 +20,10 @@ const Navbar = () => (
       </Link>
       
       <Link to="/es" style={{ display: 'flex', alignItems: 'center', backgroundColor: "blue", borderRadius: "40%" }}>
-        <h2 style={{ color: "white"}}>español</h2>
+        <h2 style={{ color: "white"}}>ES</h2>
       </Link>
       <Link to="/en" style={{ display: 'flex', alignItems: 'center', backgroundColor: "blue", borderRadius: "40%" }}>
-        <h2 style={{ color: "white"}}>English</h2>
+        <h2 style={{ color: "white"}}>EN</h2>
       </Link>
       
   <SearchBar />
